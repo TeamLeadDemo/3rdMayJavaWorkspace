@@ -1,0 +1,12 @@
+
+public class RoomDemo {
+
+	public static void main(String[] args) {
+	
+		int englishMark = 50;
+		
+		Room myRoom = new Room();
+		
+	}
+
+}

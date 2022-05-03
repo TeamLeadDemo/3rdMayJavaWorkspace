@@ -1,0 +1,26 @@
+
+public class FordFigo {
+
+	// properties
+	String color;
+	int modelNo;
+	// 8 primitive data types, start with small letter
+	// byte, byte b = 10;
+	// short, short sh = 10;
+	// int, int i = 10;
+	// long, long l = 10;
+	// float, float fl = 32.5f;
+	// double, double d = 12.5;
+	// boolean, boolean flag = true;
+	// char, char ch = 'a';
+		
+	// methods
+	
+	// _ _ _ _ _ _ _ _
+	
+	void test() {
+		long t = 6666666666666666;
+		
+	}
+	
+}

@@ -1,0 +1,15 @@
+
+public class Room {
+
+	// variables
+	int length;
+	int width;
+	int height;
+	
+	
+	
+	
+	int calculateFloorArea() {
+		
+	}
+}
