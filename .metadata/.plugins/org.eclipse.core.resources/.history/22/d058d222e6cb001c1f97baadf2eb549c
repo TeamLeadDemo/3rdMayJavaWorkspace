@@ -1,0 +1,17 @@
+
+public class AnimalDemo {
+
+	public static void main(String[] args) {
+		
+		Animal animal = new Animal();
+		
+		Snake snake = new Snake();
+		
+		Dog dog = new Dog();
+		
+		
+		
+		
+	}
+
+}

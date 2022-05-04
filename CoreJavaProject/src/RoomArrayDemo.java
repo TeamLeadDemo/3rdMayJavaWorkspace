@@ -4,6 +4,7 @@ public class RoomArrayDemo {
 	public static void main(String[] args) {
 		Room myRoom = new Room(500, 300, 100); // room object is created here
 		
+		int[] allMarks = new int[3];
 		Room[] allRooms = new Room[3]; // here array of 3 room references is created
 		
 		//System.out.println(allRooms[0].length); // will give nullpointer exception

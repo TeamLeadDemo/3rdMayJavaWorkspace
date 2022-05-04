@@ -1,0 +1,28 @@
+
+public class AnimalDemo {
+
+	public static void main(String[] args) {
+		
+		Animal animal = new Animal();
+		
+		Snake snake = new Snake();
+		
+		Dog dog = new Dog();
+		
+		// a super class reference variable can point to a sub class object
+		Animal animal1 = new Snake();
+		Animal animal2 = new Dog();
+		
+		animal1.breathe();
+		animal1.mobile();
+		//animal1.kills();
+		
+		Snake snake1 = (Snake)animal1; // downcasting super class ref variable to sub class ref variable
+		snake1.breathe();
+		snake1.mobile();
+		snake1.kills();
+		
+		
+	}
+
+}

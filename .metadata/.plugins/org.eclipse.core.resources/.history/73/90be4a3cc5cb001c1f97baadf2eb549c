@@ -1,0 +1,19 @@
+
+public class FordFigoTitanium extends FordFigo{
+
+	int bumper;
+	
+	
+	public FordFigoTitanium() {
+		super();
+	}
+
+
+	boolean airBags() {
+		System.out.println("Airbags of Ford Figo Titanium");
+		return true;
+	}
+	
+	
+	
+}

@@ -13,8 +13,14 @@ public class FordFigo {
 	// double, double d = 12.5;
 	// boolean, boolean flag = true;
 	// char, char ch = 'a';
-		
+
+	FordFigo(String color, int modelNo){
+		this.color = color;
+		this.modelNo = modelNo;
+	}
+	
 	// methods
+	
 	
 	boolean unlockCar() {
 		// code to unlock car

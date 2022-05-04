@@ -10,6 +10,11 @@ public class RoomDemo {
 		//myRoom.width = 200;
 		//myRoom.height = 100;
 		
+		//myRoom.color = "blue";
+		myRoom.setColor("blue");
+		
+		System.out.println(myRoom.getColor());
+		
 		int recievedFloorArea = myRoom.calculateFloorArea();
 		System.out.println("Floor Area is:" + recievedFloorArea);;
 		

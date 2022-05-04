@@ -1,0 +1,12 @@
+
+public class FordDemo {
+
+	public static void main(String[] args) {
+		
+		FordFigo myCar = new FordFigo("white", 12345);
+		
+		FordFigoTitanium myCar2 = new FordFigoTitanium("black", 67895, 2);
+
+	}
+
+}
