@@ -1,0 +1,11 @@
+
+public class OneDArrayDemo {
+
+	public static void main(String args[]) {
+		
+		int[] myMarks = new int[8];
+		
+		int allMarks[] = new int[8];
+		
+	}
+}

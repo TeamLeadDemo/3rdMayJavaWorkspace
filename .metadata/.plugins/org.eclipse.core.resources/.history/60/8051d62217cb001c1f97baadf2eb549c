@@ -1,0 +1,12 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		Room myRoom = new Room(300, 200, 100);
+		
+		String myName = 
+
+	}
+
+}

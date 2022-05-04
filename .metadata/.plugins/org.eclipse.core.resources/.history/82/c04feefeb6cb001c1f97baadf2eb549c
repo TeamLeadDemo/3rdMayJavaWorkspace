@@ -1,0 +1,19 @@
+
+public class TwoDArrayDemo {
+
+	public static void main(String[] args) {
+	
+		int[][] matrixA = new int[3][2];
+		
+		int[] matrixB[] = new int[3][2];
+		
+		int matrixC[][] = new int[3][2];
+		
+		for(int i=0; i<matrixA.length; i++) {
+			for(int j=0; j<matrixA[i].length; j++) {
+				System.out.println(matrixA[i][j]);
+			}
+		}
+	}
+
+}

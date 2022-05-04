@@ -1,0 +1,16 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		Room myRoom = new Room(300, 200, 100);
+		
+		String myName = new String(); // no need to use new keyword
+		
+		String str1 = "hello";
+		
+		
+
+	}
+
+}

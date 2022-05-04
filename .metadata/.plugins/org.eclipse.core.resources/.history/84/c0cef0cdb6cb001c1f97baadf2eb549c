@@ -1,0 +1,11 @@
+
+public class TwoDArrayDemo {
+
+	public static void main(String[] args) {
+	
+		int[][] matrixA = new int[3][2];
+		
+		
+	}
+
+}

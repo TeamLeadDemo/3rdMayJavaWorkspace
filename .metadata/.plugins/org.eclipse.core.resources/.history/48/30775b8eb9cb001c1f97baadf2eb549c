@@ -1,0 +1,11 @@
+
+public class RoomArrayDemo {
+
+	public static void main(String[] args) {
+		Room myRoom = new Room(500, 300, 100);
+		
+		Room[] allRooms = new Room[]
+
+	}
+
+}
