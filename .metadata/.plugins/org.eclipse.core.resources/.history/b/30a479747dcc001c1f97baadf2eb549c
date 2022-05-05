@@ -3,7 +3,7 @@ public class AnimalDemo {
 
 	public static void main(String[] args) {
 		
-		//Animal animal = new Animal(); //  cannot create object of an abstract class
+		Animal animal = new Animal();
 		
 		Snake snake = new Snake();
 		
@@ -14,7 +14,7 @@ public class AnimalDemo {
 		Animal animal2 = new Dog();
 		
 		animal1.breathe();
-		animal1.mobile(); // exhibits runtime polymorphism through method overriding
+		animal1.mobile();
 		//animal1.kills();
 		System.out.println("----------");
 		Snake snake1 = (Snake)animal1; // downcasting super class ref variable to sub class ref variable

@@ -1,0 +1,7 @@
+
+public interface SafetyGuidelines2021 {
+	
+	int helmetThickness = 8;
+	void protectHead();
+	void protectFeet();
+}
