@@ -4,6 +4,7 @@ import java.util.List;
 
 import dao.ProductDao;
 import dao.ProductDaoCollectionImpl;
+import exception.EmptyStoreException;
 import model.ProductPojo;
 
 public class ProductServiceImpl implements ProductService{
@@ -30,7 +31,7 @@ public class ProductServiceImpl implements ProductService{
 	}
 
 	@Override
-	public List<ProductPojo> getAllProducts() {
+	public List<ProductPojo> getAllProducts()throws EmptyStoreException{
 		return productDao.getAllProducts();
 	}
 

@@ -2,6 +2,7 @@ package dao;
 
 import java.util.List;
 
+import exception.EmptyStoreException;
 import model.ProductPojo;
 
 public interface ProductDao {
@@ -12,7 +13,7 @@ public interface ProductDao {
 	
 	void deleteProduct(int productId); // Delete
 	
-	List<ProductPojo> getAllProducts(); // Read
+	List<ProductPojo> getAllProducts()throws EmptyStoreException; // Read
 	
 	ProductPojo getAProduct(int productId); // Read
 	

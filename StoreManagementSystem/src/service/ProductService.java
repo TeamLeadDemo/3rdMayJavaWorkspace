@@ -2,6 +2,7 @@ package service;
 
 import java.util.List;
 
+import exception.EmptyStoreException;
 import model.ProductPojo;
 
 public interface ProductService {
@@ -12,7 +13,7 @@ public interface ProductService {
 	
 	void deleteProduct(int productId); // Delete
 	
-	List<ProductPojo> getAllProducts(); // Read
+	List<ProductPojo> getAllProducts()throws EmptyStoreException; // Read
 	
 	ProductPojo getAProduct(int productId); // Read
 	

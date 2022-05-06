@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import exception.EmptyStoreException;
 import model.ProductPojo;
 
 public class ProductDaoCollectionImpl implements ProductDao{
@@ -60,7 +61,11 @@ public class ProductDaoCollectionImpl implements ProductDao{
 	}
 
 	@Override
-	public List<ProductPojo> getAllProducts() {
+	public List<ProductPojo> getAllProducts()throws EmptyStoreException {
+		if(allProducts.isEmpty()) {
+			EmptyStoreException ese = new EmptyStoreException();
+			throw ese;
+		}
 		return allProducts;
 	}
 

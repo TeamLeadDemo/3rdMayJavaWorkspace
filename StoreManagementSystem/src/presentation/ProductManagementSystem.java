@@ -3,6 +3,7 @@ package presentation;
 import java.util.List;
 import java.util.Scanner;
 
+import exception.EmptyStoreException;
 import model.ProductPojo;
 import service.ProductService;
 import service.ProductServiceImpl;
@@ -31,7 +32,13 @@ public class ProductManagementSystem {
 			System.out.println("*****************************");
 			switch(option) {
 				case 1:
-					List<ProductPojo> everyProduct = productService.getAllProducts();
+					List<ProductPojo> everyProduct;
+					try {
+						everyProduct = productService.getAllProducts();
+					} catch (EmptyStoreException e) {
+						System.out.println(e.getMessage());
+						break;
+					}
 					System.out.println("***************************************************************************************");
 					System.out.println("ID\tNAME\tDESCRIPTION\tCOST");
 					System.out.println("***************************************************************************************");
