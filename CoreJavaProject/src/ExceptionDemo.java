@@ -14,7 +14,7 @@ public class ExceptionDemo {
 			c = a/b;
 			// 1. JVM identifies the type of exception
 			// 2. creates an obj of the exception
-			// 3. throws the obj
+			// 3. implicitly throws the obj
 		}
 		catch(ArithmeticException ae) {
 			ae.printStackTrace();
@@ -27,6 +27,12 @@ public class ExceptionDemo {
 		System.out.println(c);
 		
 		System.out.println("Division over");
+		
+		
+		
+		if(b!=0) {
+			c = a/b;
+		}
 		
 	}
 
