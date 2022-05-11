@@ -6,6 +6,7 @@ import dao.ProductDao;
 import dao.ProductDaoCollectionImpl;
 import dao.ProductDaoDatabaseImpl;
 import exception.EmptyStoreException;
+import exception.SystemException;
 import model.ProductPojo;
 
 public class ProductServiceImpl implements ProductService{
@@ -17,30 +18,31 @@ public class ProductServiceImpl implements ProductService{
 		
 		// changing the dao implementation
 		productDao = new ProductDaoDatabaseImpl();
+		
 	}
 
 	@Override
-	public ProductPojo addProduct(ProductPojo productPojo) {
+	public ProductPojo addProduct(ProductPojo productPojo)throws SystemException  {
 		return productDao.addProduct(productPojo);
 	}
 
 	@Override
-	public ProductPojo updateProduct(ProductPojo productPojo) {
+	public ProductPojo updateProduct(ProductPojo productPojo)throws SystemException  {
 		return productDao.updateProduct(productPojo);
 	}
 
 	@Override
-	public void deleteProduct(int productId) {
+	public void deleteProduct(int productId)throws SystemException {
 		productDao.deleteProduct(productId);
 	}
 
 	@Override
-	public List<ProductPojo> getAllProducts()throws EmptyStoreException{
+	public List<ProductPojo> getAllProducts()throws EmptyStoreException, SystemException{
 		return productDao.getAllProducts();
 	}
 
 	@Override
-	public ProductPojo getAProduct(int productId) {
+	public ProductPojo getAProduct(int productId)throws SystemException  {
 		return productDao.getAProduct(productId);
 	}
 	

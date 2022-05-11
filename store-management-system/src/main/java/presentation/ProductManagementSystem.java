@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import exception.EmptyStoreException;
+import exception.SystemException;
 import model.ProductPojo;
 import service.ProductService;
 import service.ProductServiceImpl;
@@ -38,6 +39,9 @@ public class ProductManagementSystem {
 					} catch (EmptyStoreException e) {
 						System.out.println(e.getMessage());
 						break;
+					} catch (SystemException e) {
+						System.out.println(e.getMessage());
+						break;
 					}
 					System.out.println("***************************************************************************************");
 					System.out.println("ID\tNAME\tDESCRIPTION\t\t\tCOST");
@@ -56,7 +60,13 @@ public class ProductManagementSystem {
 					newProductPojo.setProductDescription(scan.nextLine());
 					System.out.println("Please enter new Product Cost : ");
 					newProductPojo.setProductCost(scan.nextInt());
-					ProductPojo productPojo = productService.addProduct(newProductPojo);
+					ProductPojo productPojo = null;
+					try {
+						productPojo = productService.addProduct(newProductPojo);
+					} catch (SystemException e) {
+						System.out.println(e.getMessage());
+						break;
+					}
 					System.out.println("*****************************");
 					System.out.println("New product added successfully! \nProduct ID is :" + productPojo.getProductId());
 					System.out.println("*****************************");
@@ -64,7 +74,13 @@ public class ProductManagementSystem {
 				case 3:
 					System.out.println("Please enter Product ID to be removed :");
 					int productId = scan.nextInt(); 
-					ProductPojo getProductPojo = productService.getAProduct(productId);
+					ProductPojo getProductPojo = null;
+					try {
+						getProductPojo = productService.getAProduct(productId);
+					} catch (SystemException e1) {
+						System.out.println(e1.getMessage());
+						break;
+					}
 					if(getProductPojo == null) {
 						System.out.println("*****************************");
 						System.out.println("Product ID does not exist. \nPlease enter a valid Product ID!");
@@ -83,7 +99,12 @@ public class ProductManagementSystem {
 						char answer = scan.next().charAt(0);
 						System.out.println("*****************************");
 						if(answer == 'y') {
-							productService.deleteProduct(productId);
+							try {
+								productService.deleteProduct(productId);
+							} catch (SystemException e) {
+								System.out.println(e.getMessage());
+								break;
+							}
 							System.out.println("Product removed from store...");
 						}else {
 							System.out.println("Product not removed from store...");
@@ -94,7 +115,13 @@ public class ProductManagementSystem {
 				case 4:
 					System.out.println("Please enter Product ID to be updated :");
 					int updateProductId = scan.nextInt(); 
-					ProductPojo updateProductPojo = productService.getAProduct(updateProductId);
+					ProductPojo updateProductPojo = null;
+					try {
+						updateProductPojo = productService.getAProduct(updateProductId);
+					} catch (SystemException e) {
+						System.out.println(e.getMessage());
+						break;
+					}
 					if(updateProductPojo == null) {
 						System.out.println("*****************************");
 						System.out.println("Product ID does not exist. \nPlease enter a valid Product ID!");
@@ -111,7 +138,12 @@ public class ProductManagementSystem {
 						System.out.println("*****************************");
 						System.out.println("Please enter new Product Cost :");
 						updateProductPojo.setProductCost(scan.nextInt());
-						productService.updateProduct(updateProductPojo);
+						try {
+							productService.updateProduct(updateProductPojo);
+						} catch (SystemException e) {
+							System.out.println(e.getMessage());
+							break;
+						}
 						System.out.println("*****************************");
 						System.out.println("Product updated successfully...");
 						System.out.println("*****************************");
