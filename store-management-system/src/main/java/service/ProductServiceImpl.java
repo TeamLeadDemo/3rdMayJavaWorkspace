@@ -20,6 +20,16 @@ public class ProductServiceImpl implements ProductService{
 		productDao = new ProductDaoDatabaseImpl();
 		
 	}
+	
+	public ProductDao getProductDao() {
+		return productDao;
+	}
+
+	public void setProductDao(ProductDao productDao) {
+		this.productDao = productDao;
+	}
+
+
 
 	@Override
 	public ProductPojo addProduct(ProductPojo productPojo)throws SystemException  {
