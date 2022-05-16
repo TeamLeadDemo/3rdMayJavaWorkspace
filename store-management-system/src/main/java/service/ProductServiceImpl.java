@@ -29,10 +29,10 @@ public class ProductServiceImpl implements ProductService{
 		this.productDao = productDao;
 	}
 
-
-
 	@Override
 	public ProductPojo addProduct(ProductPojo productPojo)throws SystemException  {
+		// input validation
+		// bussiness logic
 		return productDao.addProduct(productPojo);
 	}
 

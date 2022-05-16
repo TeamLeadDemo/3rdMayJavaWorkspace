@@ -3,6 +3,12 @@ public class RoomDemo {
 
 	public static void main(String[] args) {
 	
+		Room room1 = new Room(100,  200, 300);
+		room1.calculateFloorArea(); // doesnt give NullPointerException
+		
+		Room room2  = null;
+		room2.calculateFloorArea(); // this gives NullPointerException
+		
 		int englishMark = 50;
 		
 		Room myRoom = new Room(400, 200, 100);
