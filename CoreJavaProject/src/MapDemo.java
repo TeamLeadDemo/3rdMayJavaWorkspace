@@ -28,8 +28,7 @@ public class MapDemo {
 			System.out.println(key + "\t" + value);
 		}
 		
-		
-		
+	
 		
 	}
 
