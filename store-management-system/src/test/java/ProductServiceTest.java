@@ -51,7 +51,7 @@ public class ProductServiceTest {
 		// JUnit 5 test method with mockito
 		// to work with mockito and mockito related annotation, add the mockito core maven dependency in pom.xml - refer pom.xml
 		// to work with mockito extension, add the mockito-junit-jupiter maven dependency in pom.xml - refer pom.xml
-		// to fix noSuchMethod error, a Junit lancher dependency is added in pom.xml - refer pom.xml
+		// to fix noSuchMethod error, a Junit launcher dependency is added in pom.xml - refer pom.xml
 		@Test
 		public void testAddProductWithMockito() throws SystemException {
 			
@@ -61,7 +61,8 @@ public class ProductServiceTest {
 			//mockito rule to avoid the call to the dao method while testing service method
 			//could try different ways to define the mockito rule
 			when(daoMock.addProduct(sendPojo)).thenReturn(returnPojo);
-								
+				
+			
 			ProductPojo expectedPojo = new ProductPojo(5, "Jackfruit", "Delecious Jackfruit!", 13, "");
 			ProductPojo theActualReturnPojo = null;
 			try {	
