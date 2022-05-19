@@ -18,10 +18,6 @@ public class ExecutorDemo {
 			service.submit(new TaskA(i+1));	
 		}
 		service.shutdown();
-		
-				
-		
-		
 
 	}
 
