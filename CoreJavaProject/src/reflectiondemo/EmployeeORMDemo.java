@@ -16,10 +16,8 @@ public class EmployeeORMDemo {
 		// Hibernate - implementation of JPA specification
 		
 		
-		
-		
 		// write jdbc code
-		// things that i need to frame the inseert query
+		// things that i need to frame the insert query
 			// table name
 			// column names
 			// values

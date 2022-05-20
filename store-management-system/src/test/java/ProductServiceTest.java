@@ -2,6 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -53,6 +54,7 @@ public class ProductServiceTest {
 		// to work with mockito extension, add the mockito-junit-jupiter maven dependency in pom.xml - refer pom.xml
 		// to fix noSuchMethod error, a Junit launcher dependency is added in pom.xml - refer pom.xml
 		@Test
+		
 		public void testAddProductWithMockito() throws SystemException {
 			
 			ProductPojo sendPojo = new ProductPojo(0, "Jackfruit", "Delecious Jackfruit!", 13, "");

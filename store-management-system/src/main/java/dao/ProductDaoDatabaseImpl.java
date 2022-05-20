@@ -7,6 +7,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import exception.EmptyStoreException;
 import exception.ProductNotFoundException;
 import exception.SystemException;
@@ -14,9 +17,10 @@ import model.ProductPojo;
 
 public class ProductDaoDatabaseImpl implements ProductDao{
 
+	private static final Logger LOG = LogManager.getLogger(ProductDaoDatabaseImpl.class);
 	@Override
 	public ProductPojo addProduct(ProductPojo productPojo)throws SystemException {
-		
+		LOG.info("Entered addProduct() in Dao...");
 		// yet to work on exception handling flow - completed
 		// yet to work of getting back the auto generated primary key from the DB to java - completed
 		Connection conn = null;
@@ -40,6 +44,7 @@ public class ProductDaoDatabaseImpl implements ProductDao{
 			e.printStackTrace();
 			throw new SystemException();
 		}
+		LOG.info("Exited addProduct() in Dao...");
 		return productPojo;
 	}
 
@@ -61,7 +66,7 @@ public class ProductDaoDatabaseImpl implements ProductDao{
 
 	@Override
 	public void deleteProduct(int productId) throws SystemException {
-		
+		LOG.info("Entered deleteProduct() in Dao...");
 		Connection conn = null;
 		try {
 			conn = DBUtil.makeConnection();
@@ -73,11 +78,14 @@ public class ProductDaoDatabaseImpl implements ProductDao{
 			e.printStackTrace();
 			throw new SystemException();
 		}
+		LOG.info("Exited deleteProduct() in Dao...");
 	}
 
 	@Override
 	public List<ProductPojo> getAllProducts() throws EmptyStoreException, SystemException{
+		LOG.info("Entered getAllProduct() in Dao...");
 		// collection to hold all the records as pojos 
+		
 		List<ProductPojo> allProducts = new ArrayList<ProductPojo>();
 		Connection conn = null;
 		try {
@@ -102,13 +110,14 @@ public class ProductDaoDatabaseImpl implements ProductDao{
 		} catch (SQLException e) {
 			throw new SystemException();
 		}
-		
+		LOG.info("Exited getAllProduct() in Dao...");
 		return allProducts;
 		
 	}
 
 	@Override
 	public ProductPojo getAProduct(int productId) throws SystemException {
+		LOG.info("Entered getAProduct() in Dao...");
 		Connection conn = null;
 		ProductPojo productPojo = null;
 		try {
@@ -122,6 +131,7 @@ public class ProductDaoDatabaseImpl implements ProductDao{
 		} catch (SQLException e) {
 			throw new SystemException();
 		}
+		LOG.info("Exited getAProduct() in Dao...");
 		return productPojo;
 	}
 
