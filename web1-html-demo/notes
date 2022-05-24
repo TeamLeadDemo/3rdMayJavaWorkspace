@@ -1,0 +1,25 @@
+Web applications - hosted on a web server - Tomcat 8.5
+		- collection of web pages
+		- the pages can be of 2 types
+			- static page - contents never change - HTML
+			- dynamic page - contents change - Servlet, JSP(Java Server Pages)
+		- requires to be in a particular folder structure to be hosted on a web server
+		- this means it needs a WEB-INF folder
+
+version compatibility reference
+ - https://tomcat.apache.org/whichversion.html
+ 	
+in eclipse
+	- create a dynamic web project
+	- create your first static html web page
+	
+after creating your web pages
+	- host/copy/deploy the web application in a web server
+	- start the web server
+	- open a browser and place a request to the page that you created in the web application
+	- eclipse ide will make all the above steps easy for us - just configure the tomcat server in eclipse
+	
+to configure tomcat server in eclipse
+	- File -> New -> server
+	- specify the installation directory of tomcat installed in your local ( it has to be the folder until the one that has the bin and lib folders)
+	- and click finish
