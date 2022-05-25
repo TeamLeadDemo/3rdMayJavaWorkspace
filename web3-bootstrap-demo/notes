@@ -1,0 +1,18 @@
+working with BS5
+
+2 ways
+	- download bootstrap to your local and link the bootstrp.min.css(minified version) file of bootstrap to your web page as an external css file
+	- use CDNs (Content Delivery Network), we do not download bootstrap to the local 
+	
+steps to get started with bootstrap
+	- link page to bootstrap's css file
+	- start using the bootstrap classes in you page to apply the design
+	
+common style's of bootstrap used 
+	- BS Tables
+	- BS Cards
+	- BS Lists
+	- BS Forms
+	- BS Jumbotron
+	- BS Carousel
+	

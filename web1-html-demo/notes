@@ -1,8 +1,8 @@
 Web applications - hosted on a web server - Tomcat 8.5
 		- collection of web pages
 		- the pages can be of 2 types
-			- static page - contents never change - HTML
-			- dynamic page - contents change - Servlet, JSP(Java Server Pages)
+			- static page - contents never change (at the server side) - HTML
+			- dynamic page - contents change (at the server side)- Servlet, JSP(Java Server Pages)
 		- requires to be in a particular folder structure to be hosted on a web server
 		- this means it needs a WEB-INF folder
 
@@ -10,7 +10,7 @@ version compatibility reference
  - https://tomcat.apache.org/whichversion.html
  	
 in eclipse
-	- create a dynamic web project
+	- create a dynamic web project or static web project
 	- create your first static html web page
 	
 after creating your web pages
@@ -23,3 +23,27 @@ to configure tomcat server in eclipse
 	- File -> New -> server
 	- specify the installation directory of tomcat installed in your local ( it has to be the folder until the one that has the bin and lib folders)
 	- and click finish
+	
+
+error code	
+404 error - response error code	
+	- check the url
+	- check the location of the resource that you are requesting
+
+URL structure
+	<protocol>://<ipaddress>:<port>/<webfolder>/<webpagename>
+	http://localhost:8080/web1-html-demo/FirstPage.html
+	
+S3 service - used for static hosting
+
+steps
+ - create a S3 bucket in AWS
+ - mention the name of the bucket- has to be unique
+ - chose ACL Enabled
+ - uncheck block all public access
+ - acknowlege that
+ - click on create bucket
+ - copy the object url and try to access it from the browser
+ - if it says access denied make sure the file also has public access - Actions -> Make public using ACL
+ - and now try to access the object url
+

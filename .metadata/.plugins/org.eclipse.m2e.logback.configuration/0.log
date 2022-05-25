@@ -2090,3 +2090,19 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2022-05-23 16:18:57,369 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-05-23 16:18:57,459 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-23 16:18:57,464 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-24 14:53:04,074 [Worker-115: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-05-24 14:53:07,681 [Worker-115: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jdbc.demo:jdbc-demo-maven:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\may-core-java-workspace\jdbc-demo-maven\pom.xml.
+2022-05-24 14:53:08,918 [Worker-115: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sms:store-management-system:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\may-core-java-workspace\store-management-system\pom.xml.
+2022-05-24 14:53:11,280 [Worker-115: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /store-management-system/src/main/java
+2022-05-24 14:53:11,281 [Worker-115: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /store-management-system/src/main/resources
+2022-05-24 14:53:11,283 [Worker-115: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /store-management-system/src/test/java
+2022-05-24 14:53:11,284 [Worker-115: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /store-management-system/src/test/resources
+2022-05-24 14:53:14,042 [Worker-115: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2022-05-24 14:53:14,452 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-24 14:53:14,476 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-24 14:53:14,481 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-24 14:53:14,483 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-24 14:53:15,545 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-24 14:53:15,549 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-24 14:53:15,603 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-24 14:53:15,607 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

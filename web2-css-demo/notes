@@ -1,0 +1,29 @@
+CSS - Cascading style sheets
+	- we can provide a style to a html element
+	- we can keep the styling seperate from the content and it's structure
+	
+3 ways to provide styling
+	- external styles
+		- are specified in external files with .css extension and linked to the html file
+	- internal styles
+		- are specified within the html file in a common place
+	- inline styles
+		- is specified along with the element that you want to style
+		- we use a style attribute here
+		- not preferred much
+		
+css selectors
+	- element selector
+	
+			h1 {
+			// here goes the styling properties
+				text-decoration: underline;
+				background-color: red; 
+			}
+	- id selector
+	- class selector
+	
+shorthand notation
+
+css box model
+
