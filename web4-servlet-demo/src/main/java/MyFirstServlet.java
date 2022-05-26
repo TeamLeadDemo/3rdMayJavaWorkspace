@@ -27,10 +27,14 @@ public class MyFirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		// since this is the first servlet, we are going to write output to the response
+		
 		// first, connect a PrintWriter stream to the response
 		PrintWriter out = response.getWriter();
+		
+		// here we set the content type of the response to text/html
 		response.setContentType("text/html");
-		// now you could write your out put to the stream 
+		
+		// now you could write your out put to the stream which in turns writes it to the response
 		out.println("<h2>This is my first Servlet!!</h2>");
 		
 		

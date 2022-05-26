@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		// take out the request parametrs from requuest
+		// take out the request parameters from the request
 		String userName = request.getParameter("user");
 		String password = request.getParameter("pword");
 		
@@ -36,6 +36,7 @@ public class LoginServlet extends HttpServlet {
 		if("admin".equals(userName) && "admin".equals(password)) {
 			//out.println("<h3>Login successfull</h3>");
 			response.sendRedirect("http://localhost:8888/web4-servlet-demo/LoginSuccessFile.html");
+				// here a dummy response is sent back to the client and a new request is placed from the client to LoginSuccessFile.html
 			
 		}else {
 			//out.println("<h3>Login failed!</h3>");

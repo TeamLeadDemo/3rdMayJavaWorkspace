@@ -1,13 +1,48 @@
-This is a maven project - choose maven-webapp archetype
+This demo is on how to work with servlets
 
+What Is a Servlet?
+-----------------
+A servlet is a Java programming language class that is used to extend the capabilities of servers that host applications 
+accessed by means of a request-response programming model. Although servlets can respond to any type of request, 
+they are commonly used to extend the applications hosted by web servers. For such applications, Java Servlet technology 
+defines HTTP-specific servlet classes.
 
+The javax.servlet and javax.servlet.http packages provide interfaces and classes for writing servlets. 
+All servlets must implement the Servlet interface, which defines life-cycle methods. 
+When implementing a generic service, you can use or extend the GenericServlet class provided with the Java Servlet API. 
+The HttpServlet class provides methods, such as doGet and doPost, for handling HTTP-specific services.
 
-ways to request for a page from the server
-- type the url in the browser and hit enter
-- hit the submit button in a html form
-- <a> tags
+Servlet heirachy reference
+-------------------------- 
+	- http://j2eetutorials.50webs.com/completejava.50webs.com/servlet-class-hierarchy.jpg
+	- https://www.journaldev.com/wp-content/uploads/2013/08/Servlet-Hierarchy-450x182.png
 
+Stages of the Servlet Life Cycle: The Servlet life cycle mainly goes through four stages,
+---------------------------------------------------------------------------------------------
+Loading a Servlet.
+	- means loading the servlet class into the memory
+	
+Initializing the Servlet. 
+	- init()
+	- called only once in a servlet's lifecycle
+	
+Request handling. 
+	- service()
+	- called every time a request is sent to the servlet
+	- the service() method calls the doGet() or doPost() method if we are working with HttpServlet
+	
+Destroying the Servlet. 
+	- destroy()
+	- called only once in a servlet's lifecycle
 
+image reference - https://media.geeksforgeeks.org/wp-content/uploads/Life-Cycle-Of-Servlet.jpg
+
+Project setup
+-------------
+1) create a new maven project
+2) choose the arcetype as maven-archetype-webapp archetype
+3) right click on the project folder to create new servlet
+4) write the code in the doGet method
 
 get request
 	- default 
@@ -16,3 +51,13 @@ get request
 post request
 	- have to specify explicity
 	- here the request parameters are sent through the request body
+	
+redirecting of the incomming request - 2 ways
+----------------------------------------------
+	- response.sendRedirect("LoginFailure.html");
+		- here a round trip of a dummy response and a new request is made to the webpage from the servlet
+	- RequestDispatcher
+		- here the request & response is either forwarded to another page or included in the servlet
+		- no round trip
+ 
+ 
