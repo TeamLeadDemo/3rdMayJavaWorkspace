@@ -1,6 +1,6 @@
 This demo is on how to work with servlets
 
-What Is a Servlet?
+What Is a Servlet? -  reference oracle docs
 -----------------
 A servlet is a Java programming language class that is used to extend the capabilities of servers that host applications 
 accessed by means of a request-response programming model. Although servlets can respond to any type of request, 
@@ -16,6 +16,8 @@ Servlet heirachy reference
 -------------------------- 
 	- http://j2eetutorials.50webs.com/completejava.50webs.com/servlet-class-hierarchy.jpg
 	- https://www.journaldev.com/wp-content/uploads/2013/08/Servlet-Hierarchy-450x182.png
+
+web container in the web server
 
 Stages of the Servlet Life Cycle: The Servlet life cycle mainly goes through four stages,
 ---------------------------------------------------------------------------------------------
@@ -40,7 +42,7 @@ image reference - https://media.geeksforgeeks.org/wp-content/uploads/Life-Cycle-
 Project setup
 -------------
 1) create a new maven project
-2) choose the arcetype as maven-archetype-webapp archetype
+2) choose the archetype as maven-archetype-webapp archetype
 3) right click on the project folder to create new servlet
 4) write the code in the doGet method
 
@@ -57,7 +59,43 @@ redirecting of the incomming request - 2 ways
 	- response.sendRedirect("LoginFailure.html");
 		- here a round trip of a dummy response and a new request is made to the webpage from the servlet
 	- RequestDispatcher
-		- here the request & response is either forwarded to another page or included in the servlet
+		- here the same request & response is either forwarded to another page or included in the servlet
 		- no round trip
+		- no new request
  
+
+ image reference - https://i.stack.imgur.com/a3pCn.png
  
+ http is stateless
+ 	- it does not maintain the state
+ 	- whenever a new http request comes in, the data(request parameters, request attributes) associated with the old request is lost
+
+session management - 4 ways
+---------------------------
+	- hidden form field
+		- here you place hidden form field <input type="hidden" value="John">
+		- it is not feasible to keep track if we have to kleep track of more number of data in more number pages
+	- URL rewriting
+		- here we rewrite the URL of the page that we are requesting for
+	- Cookies
+		- name/value pair that is sent to the client machine and it is saved in the client's machine
+		- add the cookies to the repsonse so the cookie goes along the response and is saved in the client's machine
+		- for every subsequent request the cookies is attached to the request and sent to the server
+	- HttpSession API
+		- we can create a new session(login), or be a part of an existing session 
+		- WE CAN KEEP ADDING DATA to the session
+		- we invalidate the session when we no longer need it(logout)
+		- the server keeps track of the session, so it is an over head to the server
+		- JWT (JSON Web Token) - explore
+		
+		
+MVC design  
+Model - Pojo
+View - Html, and AJAX calls to the servlet
+Controller - Servlet
+
+we still have the service and dao layer
+from the view we make ajax request to the controller, the controller contacts service layer, service layer contacts dao layer
+
+SPA (Single Page Application) or MPA(Multi Page Application)
+
