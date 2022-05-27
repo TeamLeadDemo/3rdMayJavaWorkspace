@@ -4,3 +4,36 @@ here are are working with javalin framework to create REST endpoints
 2) add the javalin dependancy in pom.xml
 3) add the maven compiler plugin and set the java compiler version to 11
 4) do a maven force update to sync your pom.xml with the project  
+
+
+
+format of the data - JSON (JavaScript Object Notation)
+
+// java object
+
+
+BookPojo pojo = new BookPojo();
+pojo.setBookId(101);
+pojo.setBookTitle("Harry Potter");
+
+// JSON represtation
+{
+	"bookId" : 101,
+	"bookTitle" : "Harry Potter"
+}
+
+// Javascript object
+{
+	bookId : 101,
+	bookTitle : "Harry Potter"
+}
+
+any incomming data through the request body is JSON
+this JSON should be converted to a pojo
+
+any outgoing data that goes through the response body should be JSON
+so pojo is coverted to JSON
+
+							GET			PUT			POST		DELETE
+incomming request body      no			yes			yes			no
+outgoing response body      yes			maybe		yes			no
