@@ -28,11 +28,17 @@ pojo.setBookTitle("Harry Potter");
 	bookTitle : "Harry Potter"
 }
 
-any incomming data through the request body is JSON
+
+request
+	every request has a request header and a request body
+response
+	every response has a response header and a reponse body
+
+any incoming data through the request body is JSON
 this JSON should be converted to a pojo
 
 any outgoing data that goes through the response body should be JSON
-so pojo is coverted to JSON
+so pojo is converted to JSON
 
 							GET			PUT			POST		DELETE
 incomming request body      no			yes			yes			no
