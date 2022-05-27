@@ -1,0 +1,6 @@
+here are are working with javalin framework to create REST endpoints
+
+1) create a simple maven project(similar to P0)
+2) add the javalin dependancy in pom.xml
+3) add the maven compiler plugin and set the java compiler version to 11
+4) do a maven force update to sync your pom.xml with the project  
