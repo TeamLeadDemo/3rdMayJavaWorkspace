@@ -34,7 +34,7 @@ public class BookDaoImpl implements BookDao{
 //			}
 			
 			// fixed the code to return the generated book_id
-			String query = "insert into book_details(book_title, book_author, book_genre, book_cost, book_image)" 
+			String query = "insert into book_details(book_title, book_author, book_genre, book_cost, book_image_url)" 
 					+ "values('"+bookPojo.getBookTitle()+"','"+bookPojo.getBookAuthor()
 					+"','"+bookPojo.getBookGenre()+"',"+bookPojo.getBookCost()
 					+",'"+bookPojo.getBookImage()+"') returning book_id";
