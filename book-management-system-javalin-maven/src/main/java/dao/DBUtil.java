@@ -27,7 +27,8 @@ public class DBUtil {
 	public static Connection makeConnection()throws SQLException {
 		// implemented singleton pattern here
 		if (conn == null) {
-				conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "root");
+				//conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "root");
+				conn = DriverManager.getConnection("jdbc:postgresql://book-postgres-service:5432/postgres", "postgres", "mysecretpassword");
 		}
 		return conn;
 	}

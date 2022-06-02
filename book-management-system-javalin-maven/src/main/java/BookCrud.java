@@ -5,7 +5,6 @@ import pojo.BookPojo;
 import service.BookService;
 import service.BookServiceImpl;
 
-
 public class BookCrud {
 
 	public static void main(String[] args) {
@@ -48,7 +47,18 @@ public class BookCrud {
 		});
 		
 		// endpoint to Read a book
-		
+		// http://localhost:7474/books/3
+		server.get("/books/{bid}", (ctx)->{
+			// here we contact service, service contacts dao 
+			// dao fetches the book and return it back here
+			
+			BookPojo returnedBook = bookService.getABook(Integer.parseInt(ctx.pathParam("bid")));
+			
+			//now put the books in the response body, it has to converted to json format, 
+			// the ctx.json() will take care of the above 2 and sends back the response to the client/consumer
+			ctx.json(returnedBook);
+			
+		});
 		// endpoint to Delete a book- create a delete end point
 		// http://localhost:7474/books/2
 		// here 2 is a path param which is represented as {bid} in the endpoint
