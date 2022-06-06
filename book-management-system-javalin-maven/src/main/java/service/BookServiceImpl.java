@@ -3,6 +3,7 @@ package service;
 import java.util.List;
 
 import dao.BookDao;
+import dao.BookDaoHibernateImpl;
 import dao.BookDaoImpl;
 import exception.ApplicationException;
 import pojo.BookPojo;
@@ -12,7 +13,10 @@ public class BookServiceImpl implements BookService{
 	
 	public BookServiceImpl() {
 		//this.bookDao = new BookDaoImpl();
-		this.bookDao = new BookDaoImpl();
+		//this.bookDao = new BookDaoImpl();
+		
+		// changing the implementation class to BookDaoHibernateImpl
+		this.bookDao = new BookDaoHibernateImpl();
 	}
   
 	@Override

@@ -1,0 +1,51 @@
+ORM - Concept
+JPA(Java Persistence API) - Specification
+Hibernate with JPA - implementation of the JPA specification
+Hibernate - own implementation of ORM
+
+
+Entity/persistant object
+------
+	an entity is a java class mapped to a table in the DB
+	DB architecture - relational, works with tables, rows, columns
+	java architecture - classes , objects, oops
+	
+different ways to provide configuration
+---------------------------------------
+file based configuration
+annotation based configuration
+java based configuration
+	
+steps to work with hibernate
+----------------------------
+1) add hibernate 5 depedency in the pom.xml
+	<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.3.7.Final</version>
+	</dependency>
+	<!-- API, java.xml.bind module -->
+	<dependency>
+		<groupId>jakarta.xml.bind</groupId>
+		<artifactId>jakarta.xml.bind-api</artifactId>
+		<version>2.3.2</version>
+	</dependency>
+
+	<!-- Runtime, com.sun.xml.bind module -->
+	<dependency>
+		<groupId>org.glassfish.jaxb</groupId>
+		<artifactId>jaxb-runtime</artifactId>
+		<version>2.3.2</version>
+	</dependency>
+	
+
+2) provide the framework's configuration file - hibernate.cfg.xml
+	- in a maven project place this inside src/main/resources
+	
+3) start creating the entities and map them to the tables in the db
+	- choose annotations from javax.persistence package , because we are working with Hibernate with JPA
+	
+4) start working with hibernate apis to interact with db
+	- first create a HibernateUtil class(helper class) to help us obtain the SessionFactory
+	
+
