@@ -1,3 +1,24 @@
+
+Introduction to docker
+----------------------
+Centuries back, organizations were looking forward to transforming their work with advanced technology as a whole faced constraint by various software, cloud, and on-premises-based infrastructure.
+Years later, Docker and Virtual Machines were introduced to solve these organizational challenges with a container platform. 
+These software platforms simplify the deployment process of applications and microservices.
+
+What is Docker?
+---------------
+Docker is popular virtualization software that helps its users in developing, deploying, monitoring, and running applications in a Docker Container with all their dependencies.
+
+Docker containers include all dependencies (frameworks, libraries, etc.) to run an application in an efficient and bug-free manner.
+
+Docker Containers have the following benefits: 
+
+	Light-weight
+	Applications run in isolation
+	Occupies less space
+	Easily portable and highly secure
+	Short boot-up time
+
 to list local docker images
 ---------------------------
 docker images
@@ -42,20 +63,21 @@ to containerize back-end application without docker-compose.yml
 		- goal is clean package
 		- as a result the jar file is created in the target folder
 
-4) build the docker file using 
+4) build the docker file using  
 	docker build . 
 		- this will create an image without a name
 	(or)
 	docker build -t javalin-backend .
+		- we do this in cmd
+		- navigate to the location of the dockerfile and then run the command
 		- this will create an image with the name javalin-backend
-	
-	- outcome of building a docker file - we get an image
+		- outcome of building a docker file - we get an image
 
 5) run the image to create the container
-	docker run -p 9999:4040 javalin-backend
+	docker run -p 9999:7474 javalin-backend
 
 6) confirm by accessing an endpoint of the backend application in postman
-	http://10.0.0.88:9999/api/books
+	http://localhost:9999/hello
 
 
 to containerize back-end application with docker-compose.yml

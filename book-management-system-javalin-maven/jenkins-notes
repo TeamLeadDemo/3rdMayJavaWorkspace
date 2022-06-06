@@ -1,0 +1,137 @@
+Many ways to work with jenkins
+
+1. install jenkins in local
+2. install jenkins in EC2 instance in AWS
+3. work with jenkins in a docker container
+
+coding is completed 
+	- code is present in github
+
+steps to be done in a jenkins job
+---------------------------------
+1) pull the code from github
+
+2) use maven to build the project - we get a .jar file
+3) run the jar file - either in a docker container or without a docker container
+		    - either in the local or cloud
+
+
+first way - without the jenkins pipeline
+	- we performed the three steps in a maven jenkins item
+	- this is not very convinient
+second way - with jenkins pipeline
+	- we are going to perform the 3 steps using jenkins pipeline
+	- more convinient as we create a script and say what has to be done one after 
+the other
+
+java -jar <jar file name>
+
+
+jenkins is an automation server which automates the above 3 steps
+
+
+once we login to the jenkins dashboard, (one time work)
+
+1) go to manage jenkins-> Global configuration and specify the location of git and maven installation
+	- if you do not have git and maven installed in the environment in which jenkins is running, choose install automatically
+
+2) go to manage jenkins -> manage plugins and install the maven intergration plugin and restart jenkins
+
+start creating jenkins job
+--------------------------
+1) create a new item, choose maven project
+2) specify the github url from where you need to clone the project
+	used in session
+		https://github.com/TeamLeadDemo/book-crud-javalin-docker-jenkins.git
+3) specify the maven goal as clean package
+4) add a post build step -> Windows prompt -> type "java -jar <jar file name>"
+5) save the jenkins job/item
+6) build the jenkins job
+7) go to console output of that particular build to see what's happening during the build
+
+jenkins pipeline is more convinient to work with
+- here we create a jenkins pipeline script
+
+
+
+Agile methodology
+
+Sprints - 2 to 3 weeks
+
+
+did all this in EC2 without jenkins
+------------------------------------
+1) do a git clone
+	- git clone https://github.com/DeveloperOneDemo/jenkins-bms-javalin-demo.git
+	- this clones the project from the git hub repository and brings it to the EC2
+2) build the project using maven
+	- mvn clean package
+	- this packages you project into a jar file in the target folder
+3) run the docker-compose file - staging the project
+	- docker-compose up -d
+	- docker-compose.yml had 2 services, one for the DB and the other for backend appln
+	- the respective images were pulled/ built and the contrainers were created from the images
+	- the result is 2 containers should be up and running
+
+
+docker-compose down - to exit and remove all the containers that were created by docker-compose up
+
+
+jenkins pipeline script for backend application
+------------------------------------------------
+
+pipeline {
+    agent any
+
+    stages {
+        stage('clone code') {
+            steps {
+                // Get some code from a GitHub repository
+                git (url: 'https://github.com/DeveloperOneDemo/jenkins-bms-javalin-demo.git', branch:'main')
+            }
+        }
+        stage('build code') {
+            steps {
+                // Run Maven on a Unix agent.
+                sh "mvn clean package"
+            }
+        }
+        stage('staging') {
+            steps {
+               sh "docker-compose down"    
+               sh "docker-compose up -d"
+            }
+        }
+    }
+}
+
+
+the pipeline script can be included in a jenkinsfile in the project which is in github
+
+steps for JENKINS CI for backend
+--------------------
+1) create a jenkins maven project job
+2) specify the git url in the job
+3) choose gitscm polling
+4) specify the maven goal - clean install
+5) save the job
+
+in the github repo
+------------------
+1) go to the settings of the repo in github
+2) click webhooks
+3) add a webhook
+4) specify the payload url - 
+			
+		http://<jenkins-url>/github-webhook/
+		
+		for jenkins installed in local
+		-------------------------------
+		http://61bb-2601-c2-c300-f8f0-28bd-c660-d359-5962.ngrok.io/github-webhook/
+			for this expose http:localhost:8080 using ngrok	
+		
+5) specify application/json - default
+6) keep the event as push event - default
+7) save the webhook
+
+To test Jenkins CI, push the code to the github repo to see the automatic build getting triggered
