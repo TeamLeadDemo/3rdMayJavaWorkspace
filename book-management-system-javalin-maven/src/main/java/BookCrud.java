@@ -88,7 +88,21 @@ public class BookCrud {
 			ctx.json(returnBookPojo);
 		});
 		
-		// Put
+		// Put - to update a book
+		// http://localhost:7474/books with a request body
+		server.put("/books", (ctx) -> {
+			// take out the incoming json data from the request body and put/copy it into a BookPojo
+			// it is important to make sure that the incoming json 's properties matches the book pojo properties for the copying to be successful
+			BookPojo updateBookPojo = ctx.bodyAsClass(BookPojo.class);
+			
+			
+			// next send the bookPojo object to the service and then to dao to insert into the database
+			BookPojo returnBookPojo = bookService.updateBook(updateBookPojo);
+			
+			// this returns a bookpojo which has the new book id, send this back in the response body in json format
+			ctx.json(returnBookPojo);
+		});
+		
 	}
 
 }
