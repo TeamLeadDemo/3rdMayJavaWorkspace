@@ -2,6 +2,7 @@ import java.util.List;
 
 import io.javalin.Javalin;
 import pojo.BookPojo;
+import pojo.UserPojo;
 import service.BookService;
 import service.BookServiceImpl;
 
@@ -103,6 +104,31 @@ public class BookCrud {
 			ctx.json(returnBookPojo);
 		});
 		
+		
+		// post - to validate a user
+		// http://localhost:7474/users with a request body
+		server.post("/users", (ctx) -> {
+			// take out the incoming json data from the request body and put/copy it into a UserPojo
+			// it is important to make sure that the incoming json 's properties matches the user pojo properties for the copying to be successful
+			UserPojo userPojo = ctx.bodyAsClass(UserPojo.class);
+			
+			//performing hard coded validation
+			// ideally the user will be validated against the database
+			if("admin".equals(userPojo.getUserName()) && "admin".equals(userPojo.getPassword())){
+				userPojo.setFirstName("John");
+				userPojo.setLastName("Smith");
+				userPojo.setRole("admin");
+			}else if("guest".equals(userPojo.getUserName()) && "guest".equals(userPojo.getPassword())){
+				userPojo.setFirstName("Katherine");
+				userPojo.setLastName("Paul");
+				userPojo.setRole("employee");
+			}
+			
+			// return back the user pojo
+			// the user pojo is loaded with user info, if validation was a success
+			// else the userPojo has only the username and password
+			ctx.json(userPojo);
+		});
 	}
 
 }
