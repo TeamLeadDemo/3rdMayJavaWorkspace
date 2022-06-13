@@ -1,0 +1,15 @@
+
+Spring docs
+	- https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#spring-core
+
+Spring core - IOC(Inversion Of Control) with DI
+
+outsourcing the work of object creation to the framework/spring core container
+when an object is being created it might be dependent on other objects,
+so dependency objects have to be created first and then injwcted in the objects that we request the container to create
+
+configurations can done in 3 ways
+
+XML based configuration
+Annotation based configuration
+Java Based configuration
