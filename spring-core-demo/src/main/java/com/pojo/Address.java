@@ -1,5 +1,9 @@
 package com.pojo;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Address {
 
 	private String city;
@@ -20,14 +24,17 @@ public class Address {
 		return city;
 	}
 
+	//@Value("St.Louis") // equivalent to property/setter injection of values in xml file
 	public void setCity(String city) {
 		this.city = city;
 	}
 
+	
 	public int getZipcode() {
 		return zipcode;
 	}
 
+	//@Value("66366")
 	public void setZipcode(int zipcode) {
 		this.zipcode = zipcode;
 	}
