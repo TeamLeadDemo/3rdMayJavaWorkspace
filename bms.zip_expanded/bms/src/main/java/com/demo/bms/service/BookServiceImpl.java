@@ -1,60 +1,87 @@
 package com.demo.bms.service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.demo.bms.dao.BookDao;
+import com.demo.bms.entity.BookEntity;
 import com.demo.bms.exception.ApplicationException;
 import com.demo.bms.pojo.BookPojo;
 
+@Service
 public class BookServiceImpl implements BookService{
-   
+
+	@Autowired
 	BookDao bookDao;
 	
 	public BookServiceImpl() {
-		//this.bookDao = new BookDaoImpl();
-		//this.bookDao = new BookDaoImpl();
-		
-		// changing the implementation class to BookDaoHibernateImpl
-		//this.bookDao = new BookDaoHibernateImpl();
+		//bookDao = new BookDaoHibernateImpl();
 	}
-  
+
 	@Override
 	public BookPojo addBook(BookPojo bookPojo) throws ApplicationException {
-		//logger.info("Entered addBook() in service.");
-		//BookPojo returnBookPojo = this.bookDao.addBook(bookPojo);
-		//logger.info("Exited addBook() in service.");
+		// copy the pojo into an entity object
+		BookEntity bookEntity = new BookEntity();
+		BeanUtils.copyProperties(bookPojo, bookEntity);
+		
+		//  now pass the bookEntity object to spring data jpa to be inserted into the table
+		BookEntity returnedBookEntity = bookDao.saveAndFlush(bookEntity);
+		//set the primary key into the book pojo and return it back
+		bookPojo.setId(returnedBookEntity.getId());
 		return bookPojo;
 	}
 
 	@Override
 	public BookPojo updateBook(BookPojo bookPojo) throws ApplicationException {
-		//logger.info("Entered updateBook() in service.");
-		//BookPojo returnBookPojo = this.bookDao.updateBook(bookPojo);
-		//logger.info("Exited updateBook() in service.");
+		// copy the pojo into an entity object
+		BookEntity bookEntity = new BookEntity();
+		BeanUtils.copyProperties(bookPojo, bookEntity);
+		
+		//  now pass the bookEntity object to spring data jpa to be updated into the table
+		BookEntity returnedBookEntity = bookDao.save(bookEntity);
+		
 		return bookPojo;
 	}
 
 	@Override
 	public boolean deleteBook(int bookId) throws ApplicationException {
-		//logger.info("Entered deleteBook() in service.");
-		//boolean returnFlag = this.bookDao.deleteBook(bookId);
-		//logger.info("Exited deleteBook() in service.");
+		bookDao.deleteById(bookId);
 		return true;
 	}
 
 	@Override
 	public List<BookPojo> getAllBooks() throws ApplicationException {
-		//logger.info("Entered getAllBooks() in service.");
-		//List<BookPojo> allBooks = this.bookDao.getAllBooks();
-		//logger.info("Exited getAllBooks() in service.");
-		return null;
+		List<BookEntity> allBooksEntity = bookDao.findAll();
+		// now we have to copy each book entity object in the collection to a collection on book pojo
+		// create a empty collection of book pojo
+		List<BookPojo> allBooksPojo = new ArrayList<BookPojo>();
+		for(BookEntity fetchedBookEntity: allBooksEntity) {
+			BookPojo returnBookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
+			allBooksPojo.add(returnBookPojo);
+		}
+		return allBooksPojo;
+		
 	}
 
 	@Override
 	public BookPojo getABook(int bookId) throws ApplicationException {
-		//logger.info("Entered getABook() in service.");
-		//BookPojo returnBookPojo = this.bookDao.getABook(bookId);
-		//logger.info("Exited getABook() in service.");
-		return null;
+		Optional<BookEntity> bookEntityOpt = bookDao.findById(bookId);
+		BookPojo bookPojo = null;
+		if(bookEntityOpt.isPresent()) {
+			// take out the entity object which is wrapped into the optional object
+			BookEntity fetchedBookEntity = bookEntityOpt.get();
+			// copy the entity into the pojo
+			//bookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
+			bookPojo = new BookPojo();
+			BeanUtils.copyProperties(fetchedBookEntity, bookPojo); // nested copying will not take place here
+		}
+		return bookPojo;
 	}
+   
+	
 }
