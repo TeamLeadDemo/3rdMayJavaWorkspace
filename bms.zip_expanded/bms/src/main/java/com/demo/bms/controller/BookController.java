@@ -2,6 +2,8 @@ package com.demo.bms.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -50,7 +52,7 @@ public class BookController {
 	
 	// http://localhost:5555/api/books
 	@PostMapping("books")
-	public BookPojo addBook(@RequestBody BookPojo bookPojo) throws ApplicationException {
+	public BookPojo addBook(@Valid @RequestBody BookPojo bookPojo) throws ApplicationException {
 		return bookService.addBook(bookPojo);
 	}
 
@@ -60,4 +62,17 @@ public class BookController {
 		return bookService.updateBook(bookPojo);
 	}
 	
+	// http://localhost:5555/api/books/Comedy
+	@GetMapping("books/genre/{genre}")
+	public List<BookPojo> getBooksByGenre(@PathVariable("genre") String genre) throws ApplicationException {
+		return bookService.getBooksByGenre(genre);
+		
+	}
+	
+	// http://localhost:5555/api/books/Comedy
+	@GetMapping("books/genre/author/{genre}/{author}")
+	public List<BookPojo> getBooksByGenreAndAuthor(@PathVariable("genre") String genre, @PathVariable("author") String author ) throws ApplicationException {
+		return bookService.getBooksByGenreAndAuthor(genre, author);
+		
+	}
 }

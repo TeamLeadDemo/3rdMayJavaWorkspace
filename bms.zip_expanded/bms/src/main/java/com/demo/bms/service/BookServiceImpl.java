@@ -82,6 +82,32 @@ public class BookServiceImpl implements BookService{
 		}
 		return bookPojo;
 	}
+
+	@Override
+	public List<BookPojo> getBooksByGenre(String genre) throws ApplicationException {
+		List<BookEntity> allBooksEntity = bookDao.findByBookGenre(genre);
+		// now we have to copy each book entity object in the collection to a collection on book pojo
+		// create a empty collection of book pojo
+		List<BookPojo> allBooksPojo = new ArrayList<BookPojo>();
+		for(BookEntity fetchedBookEntity: allBooksEntity) {
+			BookPojo returnBookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
+			allBooksPojo.add(returnBookPojo);
+		}
+		return allBooksPojo;
+	}
+
+	@Override
+	public List<BookPojo> getBooksByGenreAndAuthor(String genre, String author) {
+		List<BookEntity> allBooksEntity = bookDao.findByBookGenreAndBookAuthor(genre, author);
+		// now we have to copy each book entity object in the collection to a collection on book pojo
+		// create a empty collection of book pojo
+		List<BookPojo> allBooksPojo = new ArrayList<BookPojo>();
+		for(BookEntity fetchedBookEntity: allBooksEntity) {
+			BookPojo returnBookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
+			allBooksPojo.add(returnBookPojo);
+		}
+		return allBooksPojo;
+	}
    
 	
 }

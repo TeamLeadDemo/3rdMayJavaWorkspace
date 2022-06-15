@@ -1,13 +1,24 @@
 package com.demo.bms.pojo;
 
+import javax.validation.constraints.NotNull;
+
 public class BookPojo {
 
 	// convinient if the DB columns count and type matches the pojo variables
 	private int id;
+	
+	@NotNull
 	private String bookTitle;
+	
+	@NotNull
 	private String bookGenre;
+	
+	@NotNull
 	private String bookAuthor;
+	
+	@NotNull
 	private int bookCost;
+	
 	private String bookImage;
 	
 	public BookPojo() {

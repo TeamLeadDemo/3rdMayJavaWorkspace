@@ -15,4 +15,8 @@ public interface BookService {
 	List<BookPojo> getAllBooks() throws ApplicationException;
 	
 	BookPojo getABook(int bookId) throws ApplicationException;
+	
+	List<BookPojo> getBooksByGenre(String genre) throws ApplicationException;
+
+	List<BookPojo> getBooksByGenreAndAuthor(String genre, String author);
 }

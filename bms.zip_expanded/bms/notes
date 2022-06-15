@@ -1,0 +1,34 @@
+
+Spring boot
+	- starter dependencies
+	- one common configuration application.properties or application.yml
+	- web application - inbuilt tomcat server
+	- opiniated configuration
+
+2 ways to create a spring boot
+	- STS Spring Tool Suite (Eclipse for spring framework)
+	- use the spring intializer website
+
+Validation in spring 
+---------------------
+
+basic validations
+bussiness validations
+
+	https://www.baeldung.com/spring-boot-bean-validation
+	https://spring.io/guides/gs/validating-form-input/
+
+steps
+------
+	1) add this dependency in pom.xml
+	 <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+    2) use the javax.persistence annotations on the pojo fields
+    3) use the @Valid annotation in front of the @RequestBody annotation in post/put request methods
+	
+
+Exception Handling
+------------------
+	https://www.baeldung.com/exception-handling-for-rest-with-spring
