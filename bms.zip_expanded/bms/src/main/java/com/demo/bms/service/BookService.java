@@ -3,6 +3,7 @@ package com.demo.bms.service;
 import java.util.List;
 
 import com.demo.bms.exception.ApplicationException;
+import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 
 public interface BookService {
@@ -14,7 +15,7 @@ public interface BookService {
 	
 	List<BookPojo> getAllBooks() throws ApplicationException;
 	
-	BookPojo getABook(int bookId) throws ApplicationException;
+	BookPojo getABook(int bookId) throws ApplicationException, BookNotFoundException;
 	
 	List<BookPojo> getBooksByGenre(String genre) throws ApplicationException;
 

@@ -27,6 +27,7 @@ steps
     </dependency>
     2) use the javax.persistence annotations on the pojo fields
     3) use the @Valid annotation in front of the @RequestBody annotation in post/put request methods
+    4) test the endpoints from postman to see if an exception is thrown if the input validations are violated
 	
 
 Exception Handling

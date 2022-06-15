@@ -2,6 +2,7 @@ package com.demo.bms.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Service;
 import com.demo.bms.dao.BookDao;
 import com.demo.bms.entity.BookEntity;
 import com.demo.bms.exception.ApplicationException;
+import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 
 @Service
@@ -69,9 +71,10 @@ public class BookServiceImpl implements BookService{
 	}
 
 	@Override
-	public BookPojo getABook(int bookId) throws ApplicationException {
+	public BookPojo getABook(int bookId) throws ApplicationException, BookNotFoundException 
+		
 		Optional<BookEntity> bookEntityOpt = bookDao.findById(bookId);
-		BookPojo bookPojo = null;
+		BookPojo bookPojo = null;		
 		if(bookEntityOpt.isPresent()) {
 			// take out the entity object which is wrapped into the optional object
 			BookEntity fetchedBookEntity = bookEntityOpt.get();
@@ -79,6 +82,9 @@ public class BookServiceImpl implements BookService{
 			//bookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
 			bookPojo = new BookPojo();
 			BeanUtils.copyProperties(fetchedBookEntity, bookPojo); // nested copying will not take place here
+		}else {
+			// book with the bookId is not present in the DB
+			throw new BookNotFoundException(bookId);
 		}
 		return bookPojo;
 	}

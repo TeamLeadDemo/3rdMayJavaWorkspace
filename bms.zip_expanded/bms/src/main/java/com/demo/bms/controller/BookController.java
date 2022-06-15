@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.demo.bms.exception.ApplicationException;
+import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 import com.demo.bms.service.BookService;
 
@@ -40,7 +41,7 @@ public class BookController {
 	
 	// http://localhost:5555/api/books/2
 	@GetMapping("books/{bid}")
-	public BookPojo getABook(@PathVariable("bid") int bookId) throws ApplicationException {
+	public BookPojo getABook(@PathVariable("bid") int bookId) throws ApplicationException, BookNotFoundException {
 		return bookService.getABook(bookId);
 	}
 	
