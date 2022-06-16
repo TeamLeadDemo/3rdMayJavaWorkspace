@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,11 +22,14 @@ import com.demo.bms.exception.ApplicationException;
 import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 import com.demo.bms.service.BookService;
+import com.demo.bms.service.BookServiceImpl;
 
 @CrossOrigin // to enable cors
 @RestController
 @RequestMapping("api")
 public class BookController {
+	
+	final static Logger LOG = LoggerFactory.getLogger(BookController.class);
 	
 	// throws ApplicationException is incorrect here, have to handle the exceptions gracefully
 	// this can be done using GlobalExceptionHAndler - will be covered tomorrow
@@ -36,13 +41,19 @@ public class BookController {
 	// http://localhost:5555/api/books
 	@GetMapping("books")
 	public List<BookPojo> getAllBooks() throws ApplicationException{
-		return bookService.getAllBooks();
+		LOG.info("Entered getAllBooks() in controller...");
+		List<BookPojo> allBooks = bookService.getAllBooks();
+		LOG.info("Exited getAllBooks() in controller...");
+		return allBooks;
 	}
 	
 	// http://localhost:5555/api/books/2
 	@GetMapping("books/{bid}")
 	public BookPojo getABook(@PathVariable("bid") int bookId) throws ApplicationException, BookNotFoundException {
-		return bookService.getABook(bookId);
+		LOG.info("Entered getABook() in controller...");
+		BookPojo bookPojo = bookService.getABook(bookId);
+		LOG.info("Exited getABook() in controller...");
+		return bookPojo;
 	}
 	
 	//http://localhost:5555/api/books/2

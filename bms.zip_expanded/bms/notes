@@ -29,7 +29,34 @@ steps
     3) use the @Valid annotation in front of the @RequestBody annotation in post/put request methods
     4) test the endpoints from postman to see if an exception is thrown if the input validations are violated
 	
+could also explore the spring validator framework
 
 Exception Handling
 ------------------
 	https://www.baeldung.com/exception-handling-for-rest-with-spring
+	
+	provide global exception handlers for minimum 3 use cases
+		- MethodArgumentNotValidException , whenever input validations are violated
+		- Custom exception like BookNotFoundException etc
+		- ApplicationException/SystemException when the DAO layer throws an exception - check for DataAccessException of Spring Data JPA
+	
+Spring boot Logging
+-------------------
+
+Design patterns of Java - GOF
+
+SLF4J (Simple Logging Facade for Java) is a simple facade or abstraction for various 
+logging frameworks, such as Java Util Logging (JUL), Logback and Log4j2. 
+We use the abstract SLF4J API in the application, and later we can plug in any desired 
+logging framework as underlying implementation.
+
+spring boot by default uses Logback framework for logging
+
+	- https://www.baeldung.com/spring-boot-logging
+		
+	
+AOP - Aspect Oriented Programming
+---------------------------------
+
+	- https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
+	

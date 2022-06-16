@@ -1,0 +1,60 @@
+Category	Question
+General	Tell me about yourself
+Project	What did you do for your project?
+General	Tell me about a time you fell behind and had to catch up
+General	What was a problem you had that you solved?
+Project	Tell me about the projects you worked on during training
+General	Do you have any questions for me
+General	Why are you interested in joining?
+General	Tell me about your experience at Revature in training?
+DevOps	Why is DevOps important?
+DevOps	Explain some of the DevOps services you have worked with
+General	How do you study
+General	How would you feel if someone with 10 years of experience told you what to do?;
+SQL	Do you have experience with Oracle SQL?
+SQL	How many Unions are there?
+SQL	If I want to view records from 5 different tbales how will I do that?
+SQL	How would I view the total of the Salaries?
+SQL	How can I count the total number of Employees?
+SQL	Where and how can we use the clause GROUP BY?
+SQL	What is the keyword HAVING?
+Spring	What is Spring Boot? How do you use it?
+Web Services	What is REST API, what are the annotations?
+Programming	Write .equals() and hashcode() methods and explain what they do?
+Programming	Write pseudocode to calculate the sum of 2 numbers
+Spring	What is a Spring Bean?
+Java	What is multi-threading and how do you create multi-threading in your app?
+Java	How to create your own thread?
+Java	What is exception handling and error handling
+Java	What collection interface would you choose to restrict duplicates and maintain insertion order?
+SQL	Name all of the Joins in SQL
+Java	What is Maven and its advantages?
+Java	What are the different annotations in Maven?
+Project	How did you implement REST in your Project 2 or Project 3. Demonstrate your code in GitHub.
+Project	What Spring modules did you use in your projects. Demonstrate this. 
+Security	How does authorization work in a full stack app when logging in or out?
+Security	How does authorization work?
+Web Services	What is Postman? How does it work?
+Java	What is the difference between a set and a list?
+Spring	How is Spring MVC RESTful?
+Angular	What are some Angular directives you are familiar with?
+Programming	Write some code that takes a list of integers and prints out the sum using streams.
+SQL	How would you modify a constraint on a column in a table?
+Spring	Name some spring annotations and what they do?
+Git	Name some git commands you have used?
+SQL	What is a view?
+SQL	Name some SQL commands you use.
+Java	What is Comparator and Comparable? Compare and contrast them. 
+Java	What were the new features added in Java 11?
+Java	Why do we need interfaces if we have abstract classes?
+Java	Why does Java have expections? What are its classes and interfaces?
+SQL	Write a SQL statement to get a specific zipcode of format 123.. from an Employees and Address table.
+Programming	Write a function that defines an array parameter and a sum and finds the first two values that, when added, equal that sum.
+Programming	Write code to traverse a linked list.
+Programming	Write code to sort an array so its ordered in increasing order by how many times an integer occurs.
+OOP	What is inheritance?
+OOP	What is Polymorphism?
+OOP	What is Overloading?
+OOP	What is Overriding?
+General	Are you willing to relocate?
+General	Are you able to work 12-hour shifts?

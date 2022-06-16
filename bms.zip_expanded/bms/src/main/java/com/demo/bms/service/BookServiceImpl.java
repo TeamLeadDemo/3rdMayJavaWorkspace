@@ -2,9 +2,10 @@ package com.demo.bms.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,7 +18,12 @@ import com.demo.bms.pojo.BookPojo;
 
 @Service
 public class BookServiceImpl implements BookService{
-
+	
+	// since we are working with spring boot, there is no need to configure the logginh framework
+	// createing the logger variable to log the information
+	// choose slf4j;s Logger to import and this in turn uses Logback(spring boot default) framework for logging
+	final static Logger LOG = LoggerFactory.getLogger(BookServiceImpl.class);
+	
 	@Autowired
 	BookDao bookDao;
 	
@@ -58,6 +64,7 @@ public class BookServiceImpl implements BookService{
 
 	@Override
 	public List<BookPojo> getAllBooks() throws ApplicationException {
+		LOG.info("Entered getAllBooks() in service...");
 		List<BookEntity> allBooksEntity = bookDao.findAll();
 		// now we have to copy each book entity object in the collection to a collection on book pojo
 		// create a empty collection of book pojo
@@ -66,13 +73,15 @@ public class BookServiceImpl implements BookService{
 			BookPojo returnBookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
 			allBooksPojo.add(returnBookPojo);
 		}
-		return allBooksPojo;
 		
+		LOG.info("Exited getAllBooks() in service...");
+		return allBooksPojo;
 	}
 
 	@Override
-	public BookPojo getABook(int bookId) throws ApplicationException, BookNotFoundException 
+	public BookPojo getABook(int bookId) throws ApplicationException, BookNotFoundException {
 		
+		LOG.info("Entered getABook() in service...");
 		Optional<BookEntity> bookEntityOpt = bookDao.findById(bookId);
 		BookPojo bookPojo = null;		
 		if(bookEntityOpt.isPresent()) {
@@ -86,6 +95,7 @@ public class BookServiceImpl implements BookService{
 			// book with the bookId is not present in the DB
 			throw new BookNotFoundException(bookId);
 		}
+		LOG.info("Exited getABook() in service...");
 		return bookPojo;
 	}
 
