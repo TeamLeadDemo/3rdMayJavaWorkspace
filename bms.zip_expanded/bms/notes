@@ -53,6 +53,7 @@ logging framework as underlying implementation.
 spring boot by default uses Logback framework for logging
 
 	- https://www.baeldung.com/spring-boot-logging
+	- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2P9VIG6rOIDN_ZJd791PWYQPkrg7KLMLrGPMavFxigVrBD3KdNvJm3UxcSKI1dfhUQ&usqp=CAU
 		
 	
 AOP - Aspect Oriented Programming
