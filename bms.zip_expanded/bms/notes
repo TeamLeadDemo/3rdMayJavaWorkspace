@@ -60,4 +60,27 @@ AOP - Aspect Oriented Programming
 ---------------------------------
 
 	- https://docs.spring.io/spring-framework/docs/2.5.x/reference/aop.html
+	- https://howtodoinjava.com/spring-boot2/aop-aspectj/
+	
+	Steps
+	------
+	1) add the spring starter aop dependency in pom.xml file
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+	2) Craete a class LoggingAspect and annotate with @Aspect
+	3) Remove all the Logger objects created in each class in service and controller layer
+	4) test by accessing and enpooint through postman
+
+lombok
+-------
+	- https://projectlombok.org/setup/overview
+	- https://www.baeldung.com/intro-to-project-lombok
+	- https://projectlombok.org/features/Data
+	Steps
+	-----
+	1) Follow the lombok setup guide to setup lombok in eclipse(first reference)
+	2) Add the lombok dependency in pom.xml
+	3) Use lombok annotations wherever necessary
 	

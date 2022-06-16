@@ -29,7 +29,7 @@ import com.demo.bms.service.BookServiceImpl;
 @RequestMapping("api")
 public class BookController {
 	
-	final static Logger LOG = LoggerFactory.getLogger(BookController.class);
+	//final static Logger LOG = LoggerFactory.getLogger(BookController.class);
 	
 	// throws ApplicationException is incorrect here, have to handle the exceptions gracefully
 	// this can be done using GlobalExceptionHAndler - will be covered tomorrow
@@ -41,18 +41,18 @@ public class BookController {
 	// http://localhost:5555/api/books
 	@GetMapping("books")
 	public List<BookPojo> getAllBooks() throws ApplicationException{
-		LOG.info("Entered getAllBooks() in controller...");
+		//LOG.info("Entered getAllBooks() in controller...");
 		List<BookPojo> allBooks = bookService.getAllBooks();
-		LOG.info("Exited getAllBooks() in controller...");
+		//LOG.info("Exited getAllBooks() in controller...");
 		return allBooks;
 	}
 	
 	// http://localhost:5555/api/books/2
 	@GetMapping("books/{bid}")
 	public BookPojo getABook(@PathVariable("bid") int bookId) throws ApplicationException, BookNotFoundException {
-		LOG.info("Entered getABook() in controller...");
+		//LOG.info("Entered getABook() in controller...");
 		BookPojo bookPojo = bookService.getABook(bookId);
-		LOG.info("Exited getABook() in controller...");
+		//LOG.info("Exited getABook() in controller...");
 		return bookPojo;
 	}
 	

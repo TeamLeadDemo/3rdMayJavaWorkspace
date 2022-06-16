@@ -7180,3 +7180,418 @@ Caused by: java.io.EOFException: input contained no data
 2022-06-16 10:48:44,938 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-16 10:48:44,938 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-16 10:48:44,938 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:28:56,671 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:28:56,674 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:28:56,676 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:28:56,680 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:28:56,686 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:28:56,687 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:28:56,687 [Worker-2192: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:31:42,328 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:31:42,343 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:31:42,351 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:31:42,351 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:31:42,357 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:31:42,357 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:31:42,357 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:31:56,872 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:31:56,872 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:31:56,872 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:31:56,872 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:31:56,905 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:31:56,906 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:31:56,906 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:33:08,457 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:08,458 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:08,460 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:33:08,460 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 11:33:08,484 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:08,484 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:08,484 [Worker-2180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:33:23,695 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:23,695 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:23,695 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:33:23,696 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 11:33:23,701 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:23,702 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:23,702 [Worker-2188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:33:47,694 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:47,694 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:47,694 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:33:47,694 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:33:47,696 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:33:47,696 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:33:47,696 [Worker-2193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:34:46,866 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:34:46,869 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:34:46,871 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:34:46,871 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:34:46,877 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:34:46,878 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:34:46,878 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:34:53,403 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:34:53,404 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:34:53,404 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:34:53,405 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 11:34:53,469 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:34:53,469 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:34:53,469 [Worker-2179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 11:59:02,680 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:59:02,690 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:59:02,703 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 11:59:02,760 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 11:59:02,770 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 11:59:02,770 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 11:59:02,770 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:00:17,333 [Worker-2202: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:bms:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\pom.xml.
+2022-06-16 12:00:18,577 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:18,577 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:18,577 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:00:18,577 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:00:18,578 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:18,579 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:18,579 [Worker-2202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:00:21,544 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:21,544 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:21,544 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:00:21,546 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:00:21,549 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:21,549 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:21,549 [Worker-2200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:00:27,790 [Worker-2202: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-06-16 12:00:28,556 [Worker-2202: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:bms:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\pom.xml.
+2022-06-16 12:00:29,137 [Worker-2202: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:spring-boot-demo:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\may-core-java-workspace\spring-boot-demo.zip_expanded\spring-boot-demo\pom.xml.
+2022-06-16 12:00:31,278 [Worker-2202: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bms/src/main/java
+2022-06-16 12:00:31,279 [Worker-2202: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bms/src/main/resources
+2022-06-16 12:00:31,279 [Worker-2202: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bms/src/main/resources
+2022-06-16 12:00:31,279 [Worker-2202: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bms/src/test/java
+2022-06-16 12:00:31,844 [Worker-2202: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-06-16 12:00:32,691 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:32,691 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:32,691 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:00:32,733 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:00:32,737 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:32,737 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:32,737 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:00:33,717 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:33,717 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:33,718 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:00:33,718 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:00:33,722 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:00:33,722 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:00:33,722 [Worker-2201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\spring-boot-demo.zip_expanded\spring-boot-demo\src\test\resources
+2022-06-16 12:01:24,768 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:01:24,770 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:01:24,771 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:01:25,135 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:01:25,138 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:01:25,138 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:01:25,138 [Worker-2208: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:03:42,162 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:03:42,170 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:03:42,181 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:03:42,219 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:03:42,228 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:03:42,228 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:03:42,228 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:04:03,057 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:04:03,060 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:04:03,065 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:04:03,228 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:04:03,234 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:04:03,234 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:04:03,235 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:04:34,794 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:04:34,796 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:04:34,799 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:04:34,812 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:04:34,814 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:04:34,814 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:04:34,814 [Worker-2210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:05:16,777 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:16,789 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:16,797 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:16,826 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:16,835 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:16,835 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:16,835 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:05:26,316 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:26,316 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:26,318 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:26,329 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:26,361 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:26,362 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:26,362 [Worker-2212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:05:55,618 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:55,618 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:55,623 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:55,632 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:05:55,634 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:05:55,634 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:05:55,634 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:06:02,164 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:02,164 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:02,165 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:06:02,175 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:06:02,178 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:02,178 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:02,178 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:06:23,665 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:23,665 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:23,666 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:06:23,675 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:06:23,677 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:23,677 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:23,677 [Worker-2211: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:06:36,405 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:36,405 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:36,406 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:06:36,406 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:06:36,407 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:06:36,407 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:06:36,407 [Worker-2214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:07:45,026 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:07:45,033 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:07:45,040 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:07:45,518 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:07:45,526 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:07:45,526 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:07:45,526 [Worker-2198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:08:22,123 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:08:22,124 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:08:22,127 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:08:22,192 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:08:22,197 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:08:22,197 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:08:22,197 [Worker-2213: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:09:00,221 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:09:00,225 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:09:00,228 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:09:00,229 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:09:00,232 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:09:00,232 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:09:00,232 [Worker-2209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:09:03,362 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:09:03,363 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:09:03,363 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:09:03,363 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:09:03,376 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:09:03,376 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:09:03,377 [Worker-2216: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:16:03,399 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:16:03,412 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:16:03,427 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:16:03,427 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:16:03,442 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:16:03,442 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:16:03,442 [Worker-2220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:16:45,730 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:16:45,734 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:16:45,738 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:16:45,738 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:16:45,742 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:16:45,742 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:16:45,742 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:17:12,220 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:17:12,220 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:17:12,222 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:17:12,264 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:17:12,268 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:17:12,268 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:17:12,268 [Worker-2215: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:17:18,128 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:17:18,129 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:17:18,129 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:17:18,129 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:17:18,132 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:17:18,132 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:17:18,132 [Worker-2219: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:20:30,580 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:30,588 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:30,593 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:30,667 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:30,671 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:30,671 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:30,671 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:20:39,214 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:39,218 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:39,222 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:40,043 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:40,064 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:40,064 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:40,064 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:20:47,071 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:47,072 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:47,073 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:47,105 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:20:47,108 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:20:47,108 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:20:47,108 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:22:34,221 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:22:34,222 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:22:34,224 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:22:34,271 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:22:34,274 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:22:34,274 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:22:34,274 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:23:54,512 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:23:54,514 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:23:54,516 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:23:54,516 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:23:54,520 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:23:54,520 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:23:54,520 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:25:24,145 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:25:24,151 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:25:24,156 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:25:25,081 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:25:25,094 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:25:25,094 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:25:25,095 [Worker-2226: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:25:48,421 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:25:48,427 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:25:48,431 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:25:49,097 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:25:49,098 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:25:49,098 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:25:49,098 [Worker-2221: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:31:30,731 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:31:30,742 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:31:30,749 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:31:30,750 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:31:30,756 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:31:30,756 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:31:30,756 [Worker-2222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:41:06,803 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:06,810 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:06,823 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:07,126 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:07,142 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:07,142 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:07,142 [Worker-2235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:41:23,976 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:23,977 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:23,981 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:24,399 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:24,407 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:24,407 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:24,407 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:41:29,457 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:29,458 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:29,458 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:29,468 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:41:29,469 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:41:29,469 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:41:29,470 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:48:33,069 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:48:33,083 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:48:33,095 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:48:33,178 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:48:33,190 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:48:33,190 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:48:33,190 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:49:11,355 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:49:11,355 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:49:11,357 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:49:11,404 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:49:11,407 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:49:11,407 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:49:11,407 [Worker-2242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:51:06,934 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:51:06,939 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:51:06,946 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:51:07,050 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:51:07,055 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:51:07,055 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:51:07,055 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:51:24,435 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:51:24,438 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:51:24,448 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:51:24,637 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:51:24,643 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:51:24,643 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:51:24,643 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:52:23,821 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:52:23,822 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:52:23,825 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:52:24,596 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:52:24,600 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:52:24,600 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:52:24,600 [Worker-2245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:52:32,472 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:52:32,472 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:52:32,473 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:52:32,488 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:52:32,495 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:52:32,495 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:52:32,496 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:55:27,819 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:55:27,841 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:55:27,860 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:55:28,754 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 12:55:28,770 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:55:28,771 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:55:28,771 [Worker-2246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:57:45,871 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:57:45,874 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:57:45,876 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:57:45,877 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:57:45,888 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:57:45,888 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:57:45,888 [Worker-2244: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 12:58:11,648 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:58:11,654 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:58:11,657 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:58:11,659 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 12:58:11,796 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 12:58:12,904 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 12:58:12,906 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:01:15,073 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:15,074 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:15,076 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:01:15,178 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:01:15,183 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:15,183 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:15,183 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:01:23,749 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:23,749 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:23,750 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:01:23,765 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:01:23,769 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:23,769 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:23,769 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:01:57,189 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:57,189 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:57,189 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:01:57,189 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:01:57,191 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:01:57,191 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:01:57,191 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:03:28,948 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:03:28,956 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:03:28,973 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:03:29,628 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:03:29,642 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:03:29,642 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:03:29,642 [Worker-2224: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:03:59,338 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:03:59,340 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:03:59,346 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:03:59,401 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-16 13:03:59,412 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:03:59,413 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:03:59,413 [Worker-2240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:04:56,691 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:04:56,725 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:04:56,742 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:04:56,744 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:04:56,759 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:04:56,759 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:04:56,759 [Worker-2247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources
+2022-06-16 13:05:02,721 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:05:02,763 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:05:02,830 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:05:02,834 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-16 13:05:02,875 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-16 13:05:02,876 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-16 13:05:02,876 [Worker-2243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\may-core-java-workspace\bms.zip_expanded\bms\src\test\resources

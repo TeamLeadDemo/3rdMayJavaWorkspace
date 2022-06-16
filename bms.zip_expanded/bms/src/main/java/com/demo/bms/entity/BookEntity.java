@@ -7,6 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+//can use lombok annotations here as well
 @Entity // inform hiberante that this class is an entity
 @Table(name="book_details") // mapping the entity class in java to the table book_details in the DB
 public class BookEntity {
