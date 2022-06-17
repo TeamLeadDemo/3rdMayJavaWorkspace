@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import com.demo.bms.dao.BookDao;
 import com.demo.bms.entity.BookEntity;
 import com.demo.bms.exception.ApplicationException;
+import com.demo.bms.exception.BookEmptyException;
 import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 
@@ -63,12 +64,15 @@ public class BookServiceImpl implements BookService{
 	}
 
 	@Override
-	public List<BookPojo> getAllBooks() throws ApplicationException {
+	public List<BookPojo> getAllBooks() throws ApplicationException, BookEmptyException {
 		//LOG.info("Entered getAllBooks() in service...");
 		List<BookEntity> allBooksEntity = bookDao.findAll();
 		// now we have to copy each book entity object in the collection to a collection on book pojo
 		// create a empty collection of book pojo
 		List<BookPojo> allBooksPojo = new ArrayList<BookPojo>();
+		if(allBooksEntity.isEmpty()) {
+			throw new BookEmptyException();
+		}
 		for(BookEntity fetchedBookEntity: allBooksEntity) {
 			BookPojo returnBookPojo = new BookPojo(fetchedBookEntity.getId(), fetchedBookEntity.getBookTitle(), fetchedBookEntity.getBookGenre(), fetchedBookEntity.getBookAuthor(),fetchedBookEntity.getBookCost(), fetchedBookEntity.getBookImage());
 			allBooksPojo.add(returnBookPojo);

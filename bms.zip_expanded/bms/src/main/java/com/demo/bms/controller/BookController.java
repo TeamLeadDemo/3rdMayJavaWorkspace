@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.demo.bms.exception.ApplicationException;
+import com.demo.bms.exception.BookEmptyException;
 import com.demo.bms.exception.BookNotFoundException;
 import com.demo.bms.pojo.BookPojo;
 import com.demo.bms.service.BookService;
@@ -40,7 +41,7 @@ public class BookController {
 	
 	// http://localhost:5555/api/books
 	@GetMapping("books")
-	public List<BookPojo> getAllBooks() throws ApplicationException{
+	public List<BookPojo> getAllBooks() throws ApplicationException, BookEmptyException{
 		//LOG.info("Entered getAllBooks() in controller...");
 		List<BookPojo> allBooks = bookService.getAllBooks();
 		//LOG.info("Exited getAllBooks() in controller...");

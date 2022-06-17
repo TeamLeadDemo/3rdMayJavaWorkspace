@@ -34,18 +34,21 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 	}
 
 
-	// exception handler for BookNotFoundException
+	// exception handler for BookNotFoundException and BookEmptyException
 	
 	// create a method with any name and annotate it with @ExceptionHandler annotation
-	@ExceptionHandler(BookNotFoundException.class)
-	protected ResponseEntity<Object> handleBookNotFoundException(BookNotFoundException ex) { // changed the argument list to the exception(removed headers, status, request)
+	@ExceptionHandler({BookNotFoundException.class, BookEmptyException.class})
+	protected ResponseEntity<Object> handleBookNotFoundException(Exception ex) { // changed the argument list to the exception(removed headers, status, request)
 		 Map<String, String> errors = new HashMap<>();										// which was the cause for the 500 internal error	
 		 System.out.println(errors);
 		 errors.put("date", LocalDate.now()+"");
-		 errors.put("error", ex.getMessage());
+		 errors.put("errorMessage", ex.getMessage());
 		 System.out.println(errors);
 		 return new ResponseEntity<Object>(errors, HttpStatus.BAD_REQUEST);
 	}
 }
-	
+// try creating a ResponseErrorPojo with the variables below	
+// date
+// errorMessage
+// exceptionType
 

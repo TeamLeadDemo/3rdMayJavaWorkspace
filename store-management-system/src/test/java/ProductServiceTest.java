@@ -31,9 +31,13 @@ public class ProductServiceTest {
 
 		// JUnit 5 test method without mockito
 		@Test
-		public void testGetAProduct() {
+		public void testGetAProduct() throws SystemException {
 			ProductService productService = new ProductServiceImpl();
 
+			// mockito rule
+			//ProductPojo dummyReturnPojo = new ProductPojo(1, "Apples", "Juicy Apples!", 15, "");
+			//when(daoMock.getAProduct(1)).thenReturn(dummyReturnPojo);
+			
 			ProductPojo expectedPojo = new ProductPojo(1, "Apples", "Juicy Apples!", 15, "");
 			ProductPojo actualPojo = null;
 			try {
@@ -58,7 +62,7 @@ public class ProductServiceTest {
 		public void testAddProductWithMockito() throws SystemException {
 			
 			ProductPojo sendPojo = new ProductPojo(0, "Jackfruit", "Delecious Jackfruit!", 13, "");
-			ProductPojo returnPojo = new ProductPojo(5, "Jackfruit", "Delecious Jackfruit!", 13, "");
+			ProductPojo returnPojo = new ProductPojo(5, "Jackfruit", "Delecious Jackfruit!", 13, "");// dummy object returned by mockito
 			
 			//mockito rule to avoid the call to the dao method while testing service method
 			//could try different ways to define the mockito rule
@@ -76,3 +80,15 @@ public class ProductServiceTest {
 		}
 	
 }
+/*
+ include the mockito dependency in pom.xml
+1) use the @ExtendWith(MockitoExtension.class) above the test class
+2) use @Mock annotation for doa refernce variable
+	@Mock
+	private ProductDao daoMock;
+3) use the @InjectMocks annotation for the service refernec variable
+	 @InjectMocks
+	 private ProductServiceImpl service;
+4) define the mockito rules in each test method
+	when(daoMock.addProduct(sendPojo)).thenReturn(returnPojo);
+*/ 
