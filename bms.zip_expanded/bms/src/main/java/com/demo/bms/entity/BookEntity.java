@@ -109,4 +109,54 @@ public class BookEntity {
 		return "BookEntity [id=" + id + ", bookTitle=" + bookTitle + ", bookGenre=" + bookGenre + ", bookAuthor="
 				+ bookAuthor + ", bookCost=" + bookCost + ", bookImage=" + bookImage + "]";
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((bookAuthor == null) ? 0 : bookAuthor.hashCode());
+		result = prime * result + bookCost;
+		result = prime * result + ((bookGenre == null) ? 0 : bookGenre.hashCode());
+		result = prime * result + ((bookImage == null) ? 0 : bookImage.hashCode());
+		result = prime * result + ((bookTitle == null) ? 0 : bookTitle.hashCode());
+		result = prime * result + id;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		BookEntity other = (BookEntity) obj;
+		if (bookAuthor == null) {
+			if (other.bookAuthor != null)
+				return false;
+		} else if (!bookAuthor.equals(other.bookAuthor))
+			return false;
+		if (bookCost != other.bookCost)
+			return false;
+		if (bookGenre == null) {
+			if (other.bookGenre != null)
+				return false;
+		} else if (!bookGenre.equals(other.bookGenre))
+			return false;
+		if (bookImage == null) {
+			if (other.bookImage != null)
+				return false;
+		} else if (!bookImage.equals(other.bookImage))
+			return false;
+		if (bookTitle == null) {
+			if (other.bookTitle != null)
+				return false;
+		} else if (!bookTitle.equals(other.bookTitle))
+			return false;
+		if (id != other.id)
+			return false;
+		return true;
+	}
+	
 }
